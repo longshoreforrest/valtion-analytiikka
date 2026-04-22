@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Analyyttinen selainsovellus Suomen valtion budjetille ja julkiselle taloudelle. Avoimeen dataan perustuva, lähteistetty ja selaimessa laskeva."
+    />
+    <title>Valtion Budjetti — analytiikkasovellus</title>
+  </head>
+      <script>
+      /* SPA-decoder */
+      (function () {
+        var s = window.location.search;
+        if (s.indexOf("?p=") === 0 || s.indexOf("&p=") > -1) {
+          var usp = new URLSearchParams(s);
+          var p = usp.get("p");
+          if (p) {
+            var base = document.querySelector("base") ? document.querySelector("base").getAttribute("href") : "/";
+            if (base.endsWith("/")) base = base.slice(0, -1);
+            var qs = usp.get("q") || "";
+            var newPath = base + p + (qs ? "?" + qs : "") + window.location.hash;
+            window.history.replaceState(null, "", newPath);
+          }
+        }
+      })();
+    </script>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

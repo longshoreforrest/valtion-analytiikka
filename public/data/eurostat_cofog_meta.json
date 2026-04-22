@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-04-22T18:38:06.117957+00:00",
+  "row_count": 2002,
+  "countries": [
+    "FI",
+    "SE",
+    "NO",
+    "DK",
+    "IS",
+    "EU27_2020",
+    "DE",
+    "FR",
+    "NL",
+    "AT",
+    "BE",
+    "IT",
+    "ES"
+  ],
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "cofog": [
+    "TOTAL",
+    "GF01",
+    "GF02",
+    "GF03",
+    "GF04",
+    "GF05",
+    "GF06",
+    "GF07",
+    "GF08",
+    "GF09",
+    "GF10"
+  ],
+  "units": [
+    "PC_GDP",
+    "EUR_HAB"
+  ],
+  "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_exp",
+  "license": "Eurostat reuse policy (yleensä CC BY 4.0)"
+}

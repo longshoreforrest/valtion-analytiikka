@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-04-22T17:41:16.432395+00:00",
+  "row_count": 34043,
+  "tables": [
+    {
+      "table": "jali_122g",
+      "url": "https://pxdata.stat.fi/PXWeb/api/v1/fi/StatFin/jali/statfin_jali_pxt_122g.px",
+      "title": "Julkisyhteisöjen EDP-alijäämä ja -velka, vuosittain 1975–2025",
+      "rivit": 666
+    },
+    {
+      "table": "jmete_12a6",
+      "url": "https://pxdata.stat.fi/PXWeb/api/v1/fi/StatFin/jmete/statfin_jmete_pxt_12a6.px",
+      "title": "Julkisyhteisöjen menot tehtävittäin, vuosittain 1990–2024",
+      "rivit": 9240
+    },
+    {
+      "table": "jtume_11zf",
+      "url": "https://pxdata.stat.fi/PXWeb/api/v1/fi/StatFin/jtume/statfin_jtume_pxt_11zf.px",
+      "title": "Julkisyhteisöjen tulot ja menot, neljännesvuosittain 1999Q1–2025Q4",
+      "rivit": 24137
+    }
+  ],
+  "license": "CC BY 4.0",
+  "source_base": "https://pxdata.stat.fi/PXWeb/api/v1/fi/StatFin"
+}

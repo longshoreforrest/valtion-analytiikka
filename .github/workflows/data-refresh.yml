@@ -1,0 +1,59 @@
+name: Refresh data weekly
+
+on:
+  schedule:
+    # Joka maanantai klo 04:15 UTC (07:15 Helsinki kesällä, 06:15 talvella)
+    - cron: "15 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: "Pakota uudelleenlataus (--refresh)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install pip deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt pdfplumber
+
+      - name: Fetch budget + StatFin + Eurostat
+        run: |
+          FLAGS=""
+          if [ "${{ github.event.inputs.refresh }}" = "true" ]; then
+            FLAGS="--refresh"
+          fi
+          python scripts/build_data.py $FLAGS
+
+      - name: Fetch PDFs
+        run: python scripts/fetch_pdfs.py
+
+      - name: Extract PDFs to markdown
+        run: python scripts/extract_pdfs_to_md.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data public/pdfs
+          if git diff --staged --quiet; then
+            echo "Ei muutoksia — ei commitia."
+          else
+            git commit -m "chore(data): weekly refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

@@ -1,0 +1,4248 @@
+{
+  "generated_at": "2026-04-22T17:16:47.997661+00:00",
+  "row_count": 16382,
+  "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "doc_types": [
+    "Eduskunnan kirjelmä",
+    "Hallituksen esitys",
+    "Valtiovarainministeriön ehdotus"
+  ],
+  "paaluokat": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36
+  ],
+  "sources_fetched": [
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-24.csv",
+      "rivit": 15
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-25.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-26.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-28.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-29.csv",
+      "rivit": 79
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-30.csv",
+      "rivit": 56
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-31.csv",
+      "rivit": 28
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-32.csv",
+      "rivit": 57
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-33.csv",
+      "rivit": 71
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/hallituksenEsitys/2014-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 15
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 63
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 79
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 56
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 28
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 57
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 71
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2014/tae/eduskunnanKirjelma/2014-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-24.csv",
+      "rivit": 15
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-25.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-26.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-27.csv",
+      "rivit": 8
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-28.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-29.csv",
+      "rivit": 81
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-30.csv",
+      "rivit": 56
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-31.csv",
+      "rivit": 29
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-32.csv",
+      "rivit": 55
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-33.csv",
+      "rivit": 71
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/hallituksenEsitys/2015-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 15
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 82
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 56
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 31
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 56
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 71
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2015/tae/eduskunnanKirjelma/2015-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-24.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-25.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-28.csv",
+      "rivit": 66
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-29.csv",
+      "rivit": 80
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-30.csv",
+      "rivit": 52
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-31.csv",
+      "rivit": 30
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-32.csv",
+      "rivit": 55
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-35.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/hallituksenEsitys/2016-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 66
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 81
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 52
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 30
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 55
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2016/tae/eduskunnanKirjelma/2016-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-28.csv",
+      "rivit": 59
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-29.csv",
+      "rivit": 71
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-30.csv",
+      "rivit": 47
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-31.csv",
+      "rivit": 25
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-32.csv",
+      "rivit": 54
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-33.csv",
+      "rivit": 73
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-35.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/hallituksenEsitys/2017-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 59
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 71
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 47
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 25
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 53
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 73
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/valtiovarainministerionKanta/2017-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 60
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 71
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 47
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 26
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 55
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 73
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2017/tae/eduskunnanKirjelma/2017-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-24.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-28.csv",
+      "rivit": 60
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-29.csv",
+      "rivit": 70
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-31.csv",
+      "rivit": 28
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-32.csv",
+      "rivit": 58
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-33.csv",
+      "rivit": 75
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-35.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/hallituksenEsitys/2018-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 60
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 69
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 25
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 57
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/valtiovarainministerionKanta/2018-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 70
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 29
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 59
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2018/tae/eduskunnanKirjelma/2018-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-23.csv",
+      "rivit": 14
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-24.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-28.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-29.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-30.csv",
+      "rivit": 47
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-31.csv",
+      "rivit": 28
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-32.csv",
+      "rivit": 54
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-33.csv",
+      "rivit": 75
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-35.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/hallituksenEsitys/2019-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 14
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 47
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 28
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 54
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/valtiovarainministerionKanta/2019-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 16
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 48
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 29
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 57
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 73
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2019/tae/eduskunnanKirjelma/2019-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-23.csv",
+      "rivit": 15
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-28.csv",
+      "rivit": 62
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-29.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-31.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-32.csv",
+      "rivit": 53
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-33.csv",
+      "rivit": 73
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/hallituksenEsitys/2020-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 15
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 60
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 52
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 72
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/valtiovarainministerionKanta/2020-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 7
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 15
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 63
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 53
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2020/tae/eduskunnanKirjelma/2020-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-25.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-28.csv",
+      "rivit": 62
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-29.csv",
+      "rivit": 63
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-30.csv",
+      "rivit": 47
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-31.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-32.csv",
+      "rivit": 52
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-33.csv",
+      "rivit": 72
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/hallituksenEsitys/2021-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 62
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 63
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 47
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 51
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 71
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/valtiovarainministerionKanta/2021-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 66
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 63
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 53
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 73
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2021/tae/eduskunnanKirjelma/2021-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-24.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-26.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-28.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-29.csv",
+      "rivit": 66
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-31.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-32.csv",
+      "rivit": 58
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-33.csv",
+      "rivit": 75
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-35.csv",
+      "rivit": 26
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/hallituksenEsitys/2022-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 64
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 55
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/valtiovarainministerionKanta/2022-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 24
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 67
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 66
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 57
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 75
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 26
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2022/tae/eduskunnanKirjelma/2022-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-25.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-26.csv",
+      "rivit": 24
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-28.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-29.csv",
+      "rivit": 67
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-31.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-32.csv",
+      "rivit": 57
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-33.csv",
+      "rivit": 75
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-35.csv",
+      "rivit": 28
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/hallituksenEsitys/2023-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 24
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 67
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 46
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 56
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 28
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/valtiovarainministerionKanta/2023-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 25
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 10
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 67
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 66
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 47
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 17
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 58
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 74
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 27
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2023/tae/eduskunnanKirjelma/2023-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-23.csv",
+      "rivit": 14
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-24.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-25.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-27.csv",
+      "rivit": 10
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-28.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-29.csv",
+      "rivit": 80
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-31.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-32.csv",
+      "rivit": 54
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-33.csv",
+      "rivit": 75
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-35.csv",
+      "rivit": 27
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/hallituksenEsitys/2024-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 20
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 10
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 63
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 80
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 54
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 73
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 27
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/valtiovarainministerionKanta/2024-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 15
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 25
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 24
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 10
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 65
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 80
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 56
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 75
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 27
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2024/tae/eduskunnanKirjelma/2024-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-24.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-25.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-27.csv",
+      "rivit": 10
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-28.csv",
+      "rivit": 62
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-29.csv",
+      "rivit": 67
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-31.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-32.csv",
+      "rivit": 53
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-33.csv",
+      "rivit": 72
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-35.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/hallituksenEsitys/2025-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 12
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 10
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 62
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 67
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 51
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 72
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/valtiovarainministerionKanta/2025-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 24
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 10
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 62
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 67
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 19
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 54
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 72
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2025/tae/eduskunnanKirjelma/2025-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-24.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-25.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-28.csv",
+      "rivit": 60
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-29.csv",
+      "rivit": 68
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-31.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-32.csv",
+      "rivit": 48
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-33.csv",
+      "rivit": 72
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-35.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/hallituksenEsitys/2026-tae-hallituksenEsitys-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-24.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-25.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-26.csv",
+      "rivit": 24
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-28.csv",
+      "rivit": 60
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-29.csv",
+      "rivit": 67
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-31.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-32.csv",
+      "rivit": 49
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-33.csv",
+      "rivit": 72
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-35.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/valtiovarainministerionKanta/2026-tae-valtiovarainministerionKanta-36.csv",
+      "rivit": 2
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 21,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-21.csv",
+      "rivit": 11
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 22,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-22.csv",
+      "rivit": 6
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 23,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-23.csv",
+      "rivit": 13
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 24,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-24.csv",
+      "rivit": 22
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 25,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-25.csv",
+      "rivit": 21
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 26,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-26.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 27,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-27.csv",
+      "rivit": 9
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 28,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-28.csv",
+      "rivit": 61
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 29,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-29.csv",
+      "rivit": 68
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 30,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-30.csv",
+      "rivit": 45
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 31,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-31.csv",
+      "rivit": 18
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 32,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-32.csv",
+      "rivit": 50
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 33,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-33.csv",
+      "rivit": 72
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 35,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-35.csv",
+      "rivit": 23
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 36,
+      "url": "https://budjetti.vm.fi/indox/opendata/2026/tae/eduskunnanKirjelma/2026-tae-eduskunnanKirjelma-36.csv",
+      "rivit": 2
+    }
+  ],
+  "missing": [
+    {
+      "year": 2014,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35
+    },
+    {
+      "year": 2014,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36
+    },
+    {
+      "year": 2014,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2015,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35
+    },
+    {
+      "year": 2015,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36
+    },
+    {
+      "year": 2015,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2016,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 21
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 22
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 23
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 24
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 25
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 26
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 27
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 28
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 29
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 30
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 31
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 32
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 33
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 35
+    },
+    {
+      "year": 2016,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 36
+    },
+    {
+      "year": 2016,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2017,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2017,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2017,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2018,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2018,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2018,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2019,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2019,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2019,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2020,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2020,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2020,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2021,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2021,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2021,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2022,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2022,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2022,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2023,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2023,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2023,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2024,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2024,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2024,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2025,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2025,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2025,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    },
+    {
+      "year": 2026,
+      "doc": "hallituksenEsitys",
+      "paaluokka": 34
+    },
+    {
+      "year": 2026,
+      "doc": "valtiovarainministerionKanta",
+      "paaluokka": 34
+    },
+    {
+      "year": 2026,
+      "doc": "eduskunnanKirjelma",
+      "paaluokka": 34
+    }
+  ],
+  "source_url": "https://budjetti.vm.fi/opendata/",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/deed.fi"
+}

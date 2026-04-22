@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ohjataan…</title>
+    <script>
+      // SPA-fallback: muunna polku query-paramiksi ja ohjaa index.html:iin.
+      // Vastaanotto tapahtuu main.tsx:ssä.
+      (function () {
+        var base = "/valtion-analytiikka/";
+        var l = window.location;
+        var path = l.pathname.replace(new RegExp("^" + base.replace(/[-\/\\^+?.()|[\]{}]/g, "\\$&")), "/");
+        var q = l.search ? ("&q=" + encodeURIComponent(l.search.slice(1))) : "";
+        var target = l.origin + base + "?p=" + encodeURIComponent(path) + q + l.hash;
+        l.replace(target);
+      })();
+    </script>
+  </head>
+  <body>Ohjataan oikealle sivulle…</body>
+</html>
