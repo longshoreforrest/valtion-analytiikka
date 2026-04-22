@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { query, getBuildMeta } from "../data/duckdb";
 import { formatEur, formatDate } from "../data/format";
@@ -10,6 +11,7 @@ interface GroupCount { key: string; rows: number; eur: number | null }
 
 export default function DataSummary() {
   const metaQ = useQuery({ queryKey: ["build_meta"], queryFn: getBuildMeta });
+  const navigate = useNavigate();
 
   const countsQ = useQuery({
     queryKey: ["summary_counts"],
@@ -304,7 +306,7 @@ export default function DataSummary() {
           </thead>
           <tbody>
             {SOURCES.map((s) => (
-              <tr key={s.id} className="clickable" onClick={() => { window.location.hash = s.id; window.location.pathname = "/lahteet"; }}>
+              <tr key={s.id} className="clickable" onClick={() => navigate(`/lahteet#${s.id}`)}>
                 <td>
                   <div style={{ fontWeight: 600 }}>{s.nimi}</div>
                   <div style={{ fontSize: 11.5, color: "var(--fg-dim)" }}>{s.ylläpitäjä}</div>
