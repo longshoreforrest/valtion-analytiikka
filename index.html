@@ -16,15 +16,14 @@
     ></script>
   </head>
       <script>
-      /* SPA-decoder */
+      /* SPA-decoder base=/valtion-analytiikka */
       (function () {
+        var base = "/valtion-analytiikka";
         var s = window.location.search;
         if (s.indexOf("?p=") === 0 || s.indexOf("&p=") > -1) {
           var usp = new URLSearchParams(s);
           var p = usp.get("p");
           if (p) {
-            var base = document.querySelector("base") ? document.querySelector("base").getAttribute("href") : "/";
-            if (base.endsWith("/")) base = base.slice(0, -1);
             var qs = usp.get("q") || "";
             var newPath = base + p + (qs ? "?" + qs : "") + window.location.hash;
             window.history.replaceState(null, "", newPath);
