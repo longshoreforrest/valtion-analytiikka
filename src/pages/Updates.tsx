@@ -91,17 +91,21 @@ export function UpdatesList() {
     );
   }, [indexQ.data, matches]);
 
+  const count = indexQ.data?.count ?? 0;
+
   return (
     <>
-      <div className="hero">
-        <h1>Uusimmat päivitykset</h1>
-        <p className="lede">
-          Ajankohtaiset budjetti- ja talouspolitiikan tapahtumat yhtenäisenä
-          kokoelmana: asiakirjat, tiivistelmät ja lähteet. Jokainen paketti
-          sisältää PDF:t, niiden markdown-versiot ja linkit alkuperäisiin
-          tiedotteisiin.
-        </p>
-      </div>
+      <h1>Päivitykset</h1>
+      <p className="lede">
+        Ajankohtaisia budjetti- ja talouspolitiikan tapahtumia koottuina
+        kokonaisuuksina: asiakirjat, tiivistelmät, analytiikka ja lähteet.
+        {count > 0 ? (
+          <>
+            {" "}Nyt saatavilla <b>{count}</b>{" "}
+            {count === 1 ? "paketti" : "pakettia"}.
+          </>
+        ) : null}
+      </p>
 
       {indexQ.isLoading ? (
         <div className="loading">Ladataan päivityksiä…</div>
@@ -111,32 +115,31 @@ export function UpdatesList() {
           <code>scripts/.venv/bin/python scripts/fetch_updates.py</code>
         </div>
       ) : (
-        <>
-          <div className="update-grid">
-            {filtered.map((u) => (
-              <Link key={u.slug} to={`/paivitykset/${u.slug}`} className="update-card">
-                <div className="update-card-date">
-                  <span className="update-card-tag">{CATEGORY_LABEL[u.category] ?? u.category}</span>
-                  <span>{formatDate(u.event_date)}</span>
-                </div>
-                <h3>{highlight(u.title)}</h3>
-                <p>{highlight(u.subtitle)}</p>
-                {u.highlights.length > 0 ? (
-                  <ul>
-                    {u.highlights.map((h, i) => (
-                      <li key={i}>{highlight(h)}</li>
-                    ))}
-                  </ul>
-                ) : null}
-                <div className="update-card-meta">
-                  <span>📄 {u.pdf_count} PDF</span>
-                  <span>🔗 {u.link_count} linkkiä</span>
-                  <span className="update-card-open">Avaa →</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </>
+        <div className="update-grid">
+          {filtered.map((u) => (
+            <Link key={u.slug} to={`/paivitykset/${u.slug}`} className="update-card">
+              <div className="update-card-date">
+                <span className="update-card-tag">{CATEGORY_LABEL[u.category] ?? u.category}</span>
+                <span>{formatDate(u.event_date)}</span>
+              </div>
+              <h3>{highlight(u.title)}</h3>
+              <p>{highlight(u.subtitle)}</p>
+              {u.highlights.length > 0 ? (
+                <ul>
+                  {u.highlights.slice(0, 3).map((h, i) => (
+                    <li key={i}>{highlight(h)}</li>
+                  ))}
+                </ul>
+              ) : null}
+              <div className="update-card-meta">
+                <span>{u.pdf_count} PDF</span>
+                <span>·</span>
+                <span>{u.link_count} linkkiä</span>
+                <span className="update-card-open">Avaa →</span>
+              </div>
+            </Link>
+          ))}
+        </div>
       )}
     </>
   );

@@ -1098,9 +1098,15 @@ dl.kv dt { color: var(--fg-dim); }
 
 /* Päivitysten listakortit */
 .update-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  align-items: stretch;
+}
+.update-grid > * {
+  flex: 1 1 340px;
+  max-width: 560px;
+  min-width: 0;
 }
 .update-card {
   display: flex;
