@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useSearch } from "../data/search";
 import { formatDate } from "../data/format";
+import { staticUrl } from "../data/paths";
 import { IconPdf, IconMarkdown, IconExternal } from "../components/Icons";
 import KehysriihiAnalytics from "../components/KehysriihiAnalytics";
 
@@ -78,7 +79,7 @@ export function UpdatesList() {
   const indexQ = useQuery<IndexList | null>({
     queryKey: ["updates_index"],
     queryFn: async () => {
-      const r = await fetch("/updates/index.json");
+      const r = await fetch(staticUrl("/updates/index.json"));
       if (!r.ok) return null;
       return await r.json();
     },
@@ -154,7 +155,7 @@ export function UpdateDetail() {
     queryKey: ["update_meta", slug],
     queryFn: async () => {
       if (!slug) return null;
-      const r = await fetch(`/updates/${slug}/index.json`);
+      const r = await fetch(staticUrl(`/updates/${slug}/index.json`));
       if (!r.ok) return null;
       return await r.json();
     },
@@ -166,7 +167,7 @@ export function UpdateDetail() {
     enabled: !!metaQ.data,
     queryFn: async () => {
       if (!metaQ.data) return null;
-      const r = await fetch(metaQ.data.summary_path);
+      const r = await fetch(staticUrl(metaQ.data.summary_path));
       if (!r.ok) return null;
       return await r.text();
     },
@@ -177,7 +178,7 @@ export function UpdateDetail() {
     enabled: !!metaQ.data,
     queryFn: async () => {
       if (!metaQ.data) return null;
-      const r = await fetch(metaQ.data.sources_path);
+      const r = await fetch(staticUrl(metaQ.data.sources_path));
       if (!r.ok) return null;
       return await r.text();
     },
@@ -188,7 +189,7 @@ export function UpdateDetail() {
     enabled: !!pdfView && pdfView.mode === "md",
     queryFn: async () => {
       if (!pdfView) return null;
-      const r = await fetch(pdfView.pdf.md_path);
+      const r = await fetch(staticUrl(pdfView.pdf.md_path));
       if (!r.ok) return null;
       return await r.text();
     },
@@ -318,7 +319,7 @@ export function UpdateDetail() {
           </div>
           {pdfView.mode === "pdf" ? (
             <iframe
-              src={pdfView.pdf.local_path}
+              src={staticUrl(pdfView.pdf.local_path)}
               title={pdfView.pdf.title}
               style={{ width: "100%", height: "80vh", border: "1px solid var(--border)", borderRadius: 10, marginTop: 14, background: "#fff" }}
             />

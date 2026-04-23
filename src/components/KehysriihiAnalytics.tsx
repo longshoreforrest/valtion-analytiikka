@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import * as Plot from "@observablehq/plot";
 import { formatEur } from "../data/format";
+import { staticUrl } from "../data/paths";
 
 /**
  * Porautuva analytiikkanäkymä Kehysriihi 2026 -paketille.
@@ -68,7 +69,7 @@ export default function KehysriihiAnalytics({ slug, highlights = [] }: Kehysriih
   const dataQ = useQuery<Analytics | null>({
     queryKey: ["kehysriihi_analytics", slug],
     queryFn: async () => {
-      const r = await fetch(`/updates/${slug}/analytics.json`);
+      const r = await fetch(staticUrl(`/updates/${slug}/analytics.json`));
       if (!r.ok) return null;
       return await r.json();
     },
@@ -800,7 +801,7 @@ function HakuPakettiin({ slug, d }: { slug: string; d: Analytics }) {
   const metaQ = useQuery<UpdateMetaLite | null>({
     queryKey: ["kehysriihi_meta_for_search", slug],
     queryFn: async () => {
-      const r = await fetch(`/updates/${slug}/index.json`);
+      const r = await fetch(staticUrl(`/updates/${slug}/index.json`));
       if (!r.ok) return null;
       return await r.json();
     },
@@ -817,7 +818,7 @@ function HakuPakettiin({ slug, d }: { slug: string; d: Analytics }) {
 
       // summary.md
       try {
-        const r = await fetch(`/updates/${slug}/summary.md`);
+        const r = await fetch(staticUrl(`/updates/${slug}/summary.md`));
         if (r.ok) {
           docs.push({
             id: "summary",
@@ -831,7 +832,7 @@ function HakuPakettiin({ slug, d }: { slug: string; d: Analytics }) {
 
       // sources.md
       try {
-        const r = await fetch(`/updates/${slug}/sources.md`);
+        const r = await fetch(staticUrl(`/updates/${slug}/sources.md`));
         if (r.ok) {
           docs.push({
             id: "sources",
@@ -846,13 +847,13 @@ function HakuPakettiin({ slug, d }: { slug: string; d: Analytics }) {
       // PDF→MD -tiedostot
       for (const p of metaQ.data.pdfs) {
         try {
-          const r = await fetch(p.md_path);
+          const r = await fetch(staticUrl(p.md_path));
           if (r.ok) {
             docs.push({
               id: `pdf:${p.filename}`,
               title: p.title,
               source: `${p.source} · PDF → markdown`,
-              open_url: p.local_path,
+              open_url: staticUrl(p.local_path),
               icon: "pdf",
               text: await r.text(),
             });

@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useSearch } from "../data/search";
 import { formatDate } from "../data/format";
+import { staticUrl } from "../data/paths";
 import { IconPdf, IconMarkdown, IconExternal, IconClose } from "../components/Icons";
 
 interface PdfItem {
@@ -53,7 +54,7 @@ export default function Documents() {
   const indexQ = useQuery<PdfIndex | null>({
     queryKey: ["pdf_index"],
     queryFn: async () => {
-      const r = await fetch("/pdfs/index.json");
+      const r = await fetch(staticUrl("/pdfs/index.json"));
       if (!r.ok) return null;
       return (await r.json()) as PdfIndex;
     },
@@ -104,7 +105,7 @@ export default function Documents() {
     enabled: !!selected?.md_path && viewMode === "md",
     queryFn: async () => {
       if (!selected?.md_path) return null;
-      const r = await fetch(selected.md_path);
+      const r = await fetch(staticUrl(selected.md_path));
       if (!r.ok) return null;
       return await r.text();
     },
@@ -204,7 +205,7 @@ export default function Documents() {
                       <IconMarkdown size={14} /> Markdown
                     </button>
                   </div>
-                  <a href={selected.local_path} target="_blank" rel="noreferrer">
+                  <a href={staticUrl(selected.local_path)} target="_blank" rel="noreferrer">
                     <button className="icon-btn">
                       <IconExternal /> Uudessa välilehdessä
                     </button>
@@ -239,7 +240,7 @@ export default function Documents() {
 
               {viewMode === "pdf" ? (
                 <iframe
-                  src={selected.local_path}
+                  src={staticUrl(selected.local_path)}
                   title={selected.title}
                   style={{
                     width: "100%",

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { formatDate } from "../data/format";
+import { staticUrl } from "../data/paths";
 
 interface IndexListItem {
   slug: string;
@@ -34,7 +35,7 @@ export default function LatestUpdatesBanner() {
   const indexQ = useQuery<IndexList | null>({
     queryKey: ["updates_index"],
     queryFn: async () => {
-      const r = await fetch("/updates/index.json");
+      const r = await fetch(staticUrl("/updates/index.json"));
       if (!r.ok) return null;
       return await r.json();
     },
