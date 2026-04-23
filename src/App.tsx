@@ -10,12 +10,15 @@ import DataSummary from "./pages/DataSummary";
 import PublicFinance from "./pages/PublicFinance";
 import Documents from "./pages/Documents";
 import Opas from "./pages/Opas";
+import { UpdatesList, UpdateDetail } from "./pages/Updates";
 
 export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Overview />} />
+        <Route path="/paivitykset" element={<UpdatesList />} />
+        <Route path="/paivitykset/:slug" element={<UpdateDetail />} />
         <Route path="/julkinen-talous" element={<PublicFinance />} />
         <Route path="/vertailu" element={<Compare />} />
         <Route path="/taulukko" element={<TablePage />} />

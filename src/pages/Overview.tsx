@@ -8,6 +8,7 @@ import TimeSeriesChart, { TimePoint } from "../components/TimeSeriesChart";
 import Breadcrumb, { Crumb } from "../components/Breadcrumb";
 import DataAttribution from "../components/DataAttribution";
 import HierarchyMiniMap, { HierarchyLevel } from "../components/HierarchyMiniMap";
+import LatestUpdatesBanner from "../components/LatestUpdatesBanner";
 import { useSearch } from "../data/search";
 
 /**
@@ -326,6 +327,8 @@ export default function Overview() {
           alkuperäisiin avoimen datan lähteisiin.
         </p>
       </div>
+
+      <LatestUpdatesBanner />
 
       <div className="grid cols-3" style={{ marginBottom: 20 }}>
         <Link to="/julkinen-talous" className="stat" style={{ textDecoration: "none", color: "inherit" }}>

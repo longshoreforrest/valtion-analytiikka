@@ -18,6 +18,52 @@ interface Section {
 
 const SECTIONS: Section[] = [
   {
+    id: "miksi",
+    title: "Miksi tämä sovellus rakennettiin",
+    render: () => (
+      <>
+        <p style={{ fontSize: 15 }}>
+          <b>Why this application was built.</b>
+        </p>
+        <p>
+          Haluan valjastaa <b>agenttisen tekoälyn</b> Suomen valtion talouden
+          analysointiin ja <b>tuottavuushyötyjen tunnistamiseen</b>. Julkinen talous
+          on iso, hidas ja vaikeasti luettava — silti siinä piilee valtavasti
+          mahdollisuuksia, jotka jäävät huomaamatta, koska kukaan ei ehdi koota
+          kokonaiskuvaa rivitasoisesta talousarviosta, toteutumasta, ennusteista ja
+          kansainvälisistä vertailuista yhdessä paikassa.
+        </p>
+        <p>
+          Tämä sovellus on <b>tutkimusalusta</b> sille kysymykselle: kun
+          agenttinen AI rakentaa kokonaisen analytiikkasovelluksen parissa päivässä
+          ja lataa sisään kymmeniä tuhansia budjettirivejä, kehyslukuja ja
+          EU-vertailudataa, mitä kaikkea ihmisen on yhtäkkiä mahdollista kysyä ja
+          tarkistaa? Mitkä <b>politiikkatoimet</b> ovat todellisuudessa
+          vaikuttaneet mihinkin menoluokkaan? Missä on ilmeisiä{" "}
+          <b>tuottavuusloikkia</b>, joita datasta voi lukea? Mitkä lupaukset ja
+          tavoitteet näkyvät numeroissa, mitkä eivät?
+        </p>
+        <p>
+          Sovellus ei anna valmiita vastauksia vaan rakentaa{" "}
+          <b>avoimesti jäljitettävän pohjan</b>: kaikki data tulee
+          avoimista lähteistä (VM, Valtiokonttori, Tilastokeskus, Eurostat, Valto),
+          kaikki laskennat ajetaan selaimessa DuckDB-Wasm:lla eli sama käyttäjä näkee
+          saman tuloksen, ja jokainen visualisointi viittaa tarkkaan lähteeseensä.
+          Näin sekä ihminen että AI-agentti voivat käyttää samaa pohjaa
+          väittämiensä tueksi tai kyseenalaistamiseksi.
+        </p>
+        <p>
+          Pidän kehitystä jatkuvana kokeiluna: mikä toimii, mikä ei, mistä löytyy
+          uutta oivallusta. Palautetta ja yhteistyöehdotuksia ottaa mielellään
+          vastaan —{" "}
+          <a href="https://www.linkedin.com/in/tapio-pitkaranta/" target="_blank" rel="noreferrer">
+            tekijä LinkedInissä
+          </a>.
+        </p>
+      </>
+    ),
+  },
+  {
     id: "pikaopas",
     title: "Pikaopas",
     render: () => (

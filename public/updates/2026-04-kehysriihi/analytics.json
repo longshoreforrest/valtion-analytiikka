@@ -1,0 +1,92 @@
+{
+  "source": "VM_kehysehdotus_2027-2030.pdf (26.2.2026)",
+  "note": "Kaikki luvut milj. € ellei toisin mainittu. Hallinnonala-taulukossa rahat ovat vuoden 2027 hinta- ja kustannustasossa.",
+  "avainluvut": {
+    "alijaama_ka_2027_2030_mrd": 14.9,
+    "alijaama_2027_mrd": 12.6,
+    "alijaama_2028_mrd": 15.3,
+    "alijaama_2029_mrd": 15.8,
+    "alijaama_2030_mrd": 16.0,
+    "velka_2027_mrd": 213,
+    "velka_2030_mrd": 260,
+    "velka_bkt_2027_pct": 70.5,
+    "velka_bkt_2030_pct": 77,
+    "korkomenot_2026_mrd": 3.2,
+    "korkomenot_2030_mrd": 5.9,
+    "menot_2027_mrd": 91.5,
+    "menot_2030_mrd": 95.2,
+    "tulot_2027_mrd": 78.9,
+    "tulot_2030_mrd": 85.5,
+    "yhteisovero_2026_pct": 20,
+    "yhteisovero_2027_pct": 18,
+    "puolustusmenot_bkt_2030_pct": 3.0,
+    "nato_sitoumus_bkt_2035_pct": 5.0,
+    "vaalikauden_kehys_2027": 79283,
+    "kehyksen_harkinnanvarainen_alennus_2027": -203
+  },
+  "hallinnonalat": [
+    { "num": 23, "nimi": "Valtioneuvoston kanslia",                 "vuodet": [{"v":2027,"kaikki":248,  "kehys":231,  "ulkop":18},  {"v":2028,"kaikki":239,  "kehys":220,  "ulkop":19},  {"v":2029,"kaikki":240,  "kehys":220,  "ulkop":20},  {"v":2030,"kaikki":246,  "kehys":226,  "ulkop":20}] },
+    { "num": 24, "nimi": "Ulkoministeriö",                           "vuodet": [{"v":2027,"kaikki":1174, "kehys":1065, "ulkop":109}, {"v":2028,"kaikki":1101, "kehys":996,  "ulkop":105}, {"v":2029,"kaikki":1101, "kehys":996,  "ulkop":105}, {"v":2030,"kaikki":1111, "kehys":1007, "ulkop":105}] },
+    { "num": 25, "nimi": "Oikeusministeriö",                         "vuodet": [{"v":2027,"kaikki":1284, "kehys":1220, "ulkop":64},  {"v":2028,"kaikki":1275, "kehys":1212, "ulkop":63},  {"v":2029,"kaikki":1309, "kehys":1244, "ulkop":65},  {"v":2030,"kaikki":1307, "kehys":1242, "ulkop":65}] },
+    { "num": 26, "nimi": "Sisäministeriö",                           "vuodet": [{"v":2027,"kaikki":2053, "kehys":1800, "ulkop":253}, {"v":2028,"kaikki":2059, "kehys":1819, "ulkop":240}, {"v":2029,"kaikki":1946, "kehys":1812, "ulkop":134}, {"v":2030,"kaikki":1953, "kehys":1813, "ulkop":140}] },
+    { "num": 27, "nimi": "Puolustusministeriö",                      "vuodet": [{"v":2027,"kaikki":6714, "kehys":5718, "ulkop":996}, {"v":2028,"kaikki":7934, "kehys":6769, "ulkop":1164},{"v":2029,"kaikki":8440, "kehys":7391, "ulkop":1049},{"v":2030,"kaikki":8665, "kehys":7373, "ulkop":1292}] },
+    { "num": 28, "nimi": "Valtiovarainministeriö",                   "vuodet": [{"v":2027,"kaikki":42717,"kehys":42335,"ulkop":382}, {"v":2028,"kaikki":43524,"kehys":43105,"ulkop":419}, {"v":2029,"kaikki":43956,"kehys":43494,"ulkop":462}, {"v":2030,"kaikki":44049,"kehys":43546,"ulkop":503}] },
+    { "num": 29, "nimi": "Opetus- ja kulttuuriministeriö",           "vuodet": [{"v":2027,"kaikki":9110, "kehys":8982, "ulkop":128}, {"v":2028,"kaikki":9095, "kehys":8969, "ulkop":125}, {"v":2029,"kaikki":9002, "kehys":8877, "ulkop":125}, {"v":2030,"kaikki":9004, "kehys":8878, "ulkop":125}] },
+    { "num": 30, "nimi": "Maa- ja metsätalousministeriö",            "vuodet": [{"v":2027,"kaikki":2615, "kehys":1652, "ulkop":963}, {"v":2028,"kaikki":2533, "kehys":1592, "ulkop":941}, {"v":2029,"kaikki":2519, "kehys":1579, "ulkop":941}, {"v":2030,"kaikki":2518, "kehys":1577, "ulkop":941}] },
+    { "num": 31, "nimi": "Liikenne- ja viestintäministeriö",         "vuodet": [{"v":2027,"kaikki":3652, "kehys":2470, "ulkop":1182},{"v":2028,"kaikki":3704, "kehys":2521, "ulkop":1182},{"v":2029,"kaikki":3449, "kehys":2267, "ulkop":1182},{"v":2030,"kaikki":3279, "kehys":2096, "ulkop":1182}] },
+    { "num": 32, "nimi": "Työ- ja elinkeinoministeriö",              "vuodet": [{"v":2027,"kaikki":2611, "kehys":2076, "ulkop":535}, {"v":2028,"kaikki":2698, "kehys":2118, "ulkop":579}, {"v":2029,"kaikki":2690, "kehys":1930, "ulkop":787}, {"v":2030,"kaikki":2323, "kehys":1653, "ulkop":670}] },
+    { "num": 33, "nimi": "Sosiaali- ja terveysministeriö",           "vuodet": [{"v":2027,"kaikki":14864,"kehys":10848,"ulkop":4016},{"v":2028,"kaikki":14526,"kehys":10680,"ulkop":3846},{"v":2029,"kaikki":14440,"kehys":10704,"ulkop":3736},{"v":2030,"kaikki":14386,"kehys":10735,"ulkop":3651}] },
+    { "num": 35, "nimi": "Ympäristöministeriö",                      "vuodet": [{"v":2027,"kaikki":370,  "kehys":255,  "ulkop":115}, {"v":2028,"kaikki":339,  "kehys":233,  "ulkop":106}, {"v":2029,"kaikki":337,  "kehys":232,  "ulkop":105}, {"v":2030,"kaikki":337,  "kehys":232,  "ulkop":105}] },
+    { "num": 36, "nimi": "Valtionvelan korot",                       "vuodet": [{"v":2027,"kaikki":3943, "kehys":0,    "ulkop":3943},{"v":2028,"kaikki":4650, "kehys":0,    "ulkop":4650},{"v":2029,"kaikki":5237, "kehys":0,    "ulkop":5237},{"v":2030,"kaikki":5907, "kehys":0,    "ulkop":5907}] }
+  ],
+  "ulkopuoliset_menot": [
+    { "kategoria": "Suhdanneluonteiset menot",             "mrd": {"2026":4.2, "2027":4.0, "2028":3.8, "2029":3.7, "2030":3.6} },
+    { "kategoria": "Veroperustemuutosten kompensaatiot kunnille", "mrd": {"2026":-0.3,"2027":-0.3,"2028":-0.2,"2029":-0.2,"2030":-0.2} },
+    { "kategoria": "EU:lta saatavia tuloja vastaavat menot", "mrd": {"2026":1.4, "2027":1.3, "2028":1.4, "2029":1.5, "2030":1.4} },
+    { "kategoria": "Korkomenot",                           "mrd": {"2026":3.2, "2027":3.9, "2028":4.7, "2029":5.2, "2030":5.9} },
+    { "kategoria": "Finanssisijoitukset",                  "mrd": {"2026":0.3, "2027":0.2, "2028":0.2, "2029":0.2, "2030":0.2} },
+    { "kategoria": "Tekniset läpivirtaukset",              "mrd": {"2026":0.5, "2027":0.5, "2028":0.5, "2029":0.5, "2030":0.6} },
+    { "kategoria": "Arvonlisäveromäärärahat",              "mrd": {"2026":1.9, "2027":2.2, "2028":2.4, "2029":2.2, "2030":2.5} },
+    { "kategoria": "Siirto valtion tv- ja radiorahastoon", "mrd": {"2026":0.6, "2027":0.6, "2028":0.6, "2029":0.6, "2030":0.6} },
+    { "kategoria": "EU-elpymisvälineen tuloilla rah. menot","mrd": {"2026":0.4, "2027":0.0, "2028":0.0, "2029":0.0, "2030":0.0} },
+    { "kategoria": "Asuntotuotannon korkotuki ja takaukset","mrd": {"2026":0.2, "2027":0.1, "2028":0.1, "2029":0.1, "2030":0.1} }
+  ],
+  "verotulot": [
+    { "kategoria": "Ansio- ja pääomatuloverot", "mrd": {"2026":26.5, "2027":27.2, "2028":28.8, "2029":30.4, "2030":32.0}, "vuosimuutos_pct": 4.8 },
+    { "kategoria": "Yhteisövero",               "mrd": {"2026":5.8,  "2027":5.3,  "2028":5.4,  "2029":5.5,  "2030":5.6},  "vuosimuutos_pct": -0.8 },
+    { "kategoria": "Arvonlisävero",             "mrd": {"2026":23.7, "2027":24.6, "2028":25.6, "2029":26.8, "2030":27.6}, "vuosimuutos_pct": 3.8 },
+    { "kategoria": "Valmisteverot",             "mrd": {"2026":6.6,  "2027":6.6,  "2028":6.4,  "2029":6.3,  "2030":6.2},  "vuosimuutos_pct": -1.8 },
+    { "kategoria": "Muut verotulot",            "mrd": {"2026":5.6,  "2027":5.3,  "2028":5.5,  "2029":5.6,  "2030":5.7},  "vuosimuutos_pct": 0.8 }
+  ],
+  "tasapaino": [
+    { "vuosi": 2026, "tulot_mrd": 80.5, "menot_mrd": 91.3, "tasapaino_mrd": -10.8, "velka_bkt_pct": 69,   "huomio": "Sisältää Valtion asuntorahaston kassan kertatuloutuksen ~2,3 mrd €" },
+    { "vuosi": 2027, "tulot_mrd": 78.9, "menot_mrd": 91.5, "tasapaino_mrd": -12.6, "velka_bkt_pct": 70.5, "huomio": null },
+    { "vuosi": 2028, "tulot_mrd": 80.6, "menot_mrd": 95.9, "tasapaino_mrd": -15.3, "velka_bkt_pct": 73,   "huomio": null },
+    { "vuosi": 2029, "tulot_mrd": 83.2, "menot_mrd": 99.0, "tasapaino_mrd": -15.8, "velka_bkt_pct": 75,   "huomio": null },
+    { "vuosi": 2030, "tulot_mrd": 85.5, "menot_mrd": 101.5,"tasapaino_mrd": -16.0, "velka_bkt_pct": 77,   "huomio": null }
+  ],
+  "veromuutokset": [
+    { "nimi": "Ansiotuloverotuksen indeksitarkistus",                         "suunta":"vahennys","vaikutus_m_eur": {"2027":-724,"2028":-736,"2029":-726,"2030":-726} },
+    { "nimi": "Työtulovähennys (pieni-/keskitulot painotus)",                 "suunta":"vahennys","vaikutus_m_eur": {"2027":-93} },
+    { "nimi": "Pieni- ja keskituloisten verotuksen keventäminen",             "suunta":"vahennys","vaikutus_m_eur": {"2027":-113} },
+    { "nimi": "Vertailutietoja koskevan sääntelyn kehittäminen",              "suunta":"lisays","vaikutus_m_eur": {"2027":40,"2028":35} },
+    { "nimi": "Vapaaehtoisen eläkesäästämisen verotuen poistaminen",          "suunta":"lisays","vaikutus_m_eur": {"2027":54} },
+    { "nimi": "Lahjoitusvähennyksen laajentaminen",                           "suunta":"vahennys","vaikutus_m_eur": {"2027":-10} },
+    { "nimi": "Osakesäästötilin enimmäissäästömäärän nostaminen 100 000 €",   "suunta":"vahennys","vaikutus_m_eur": {"2027":-5} },
+    { "nimi": "Yhteisöverokannan alentaminen 20 → 18 %",                      "suunta":"vahennys","vaikutus_m_eur": {"2027":-675,"2028":-125} },
+    { "nimi": "Verohyvitys ilmastoneutraaleille investoinneille (2025)",      "suunta":"vahennys","vaikutus_m_eur": {"2027":-50,"2028":-50} },
+    { "nimi": "Verohyvitys ilmastoneutraaleille investoinneille (2026→)",     "suunta":"vahennys","vaikutus_m_eur": {"2027":-75,"2028":-75} },
+    { "nimi": "Korkovähennysrajoituksen poikkeus (huoltovarmuus-infra)",      "suunta":"vahennys","vaikutus_m_eur": {"2027":-20} },
+    { "nimi": "Tupakkaveron korotus",                                         "suunta":"lisays","vaikutus_m_eur": {"2027":50} },
+    { "nimi": "Polttoaineverotuksen CO₂-komponentin keventäminen",            "suunta":"vahennys","vaikutus_m_eur": {"2027":-50} },
+    { "nimi": "Jäteveron veropohjan laajentaminen",                           "suunta":"lisays","vaikutus_m_eur": {"2027":10} },
+    { "nimi": "Perintöveron maksuajan pidennys ja korkomarginaalin alennus",  "suunta":"lisays","vaikutus_m_eur": {"2027":1,"2028":-2} },
+    { "nimi": "Rahapeliuudistukseen liittyvät verotulojen muutokset",         "suunta":"lisays","vaikutus_m_eur": {"2027":125,"2028":81} }
+  ],
+  "linkit_sovelluksen_dataan": {
+    "hallinnonalat_yleiskuva": "Hallinnonalojen pääluokkanumerot (23, 24, 25…) vastaavat Yleiskuva-sivun pääluokkarakennetta — klikkaa hallinnonalaa nähdäksesi sen momenttitason vuosikehityksen aiempana.",
+    "julkinen_talous_velka": "EDP-velka-aikasarja (Julkinen talous → Velka ja alijäämä) ulottuu vuoteen 1975 ja antaa kontekstin vuoden 2030 arvioituihin 77 % BKT:sta -lukuihin.",
+    "eu_vertailu": "Eurostat gov_10a_exp (Julkinen talous → EU-vertailu) näyttää Suomen COFOG-profiilin muiden maiden rinnalla — voit arvioida onko esim. puolustusmenojen kasvu 3 % BKT:sta korkea EU-tasolla.",
+    "vertailu_2026_2027": "Vuosivertailu-sivulla voit valita 2026 vs. 2027 talousarviorivit ja nähdä miten hallinnonalojen painotukset muuttuvat JTS:n mukaisesti."
+  }
+}

@@ -46,11 +46,14 @@ jobs:
       - name: Extract PDFs to markdown
         run: python scripts/extract_pdfs_to_md.py
 
+      - name: Fetch update packages (kehysriihi etc.)
+        run: python scripts/fetch_updates.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data public/pdfs
+          git add public/data public/pdfs public/updates
           if git diff --staged --quiet; then
             echo "Ei muutoksia — ei commitia."
           else
