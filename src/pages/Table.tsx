@@ -225,24 +225,27 @@ export default function TablePage() {
                 <thead>
                   <tr>
                     {sortHeader("vuosi", "Vuosi")}
-                    <th>Dokumentti</th>
+                    <th className="hide-mobile">Dokumentti</th>
                     {sortHeader("paaluokka_nimi", "Pääluokka")}
-                    <th>Luku</th>
+                    <th className="hide-mobile">Luku</th>
                     {sortHeader("momentti_nimi", "Momentti")}
                     {sortHeader("maararaha_eur", "Määräraha", "right")}
-                    {sortHeader("toteutuma_edellinen_eur", "Toteutuma t-1", "right")}
+                    <th className="num hide-mobile" style={{ textAlign: "right", cursor: "pointer" }}
+                        onClick={() => { if (sortCol === "toteutuma_edellinen_eur") setSortDir(sortDir === "asc" ? "desc" : "asc"); else { setSortCol("toteutuma_edellinen_eur"); setSortDir("desc"); } }}>
+                      Toteutuma t-1 {sortCol === "toteutuma_edellinen_eur" ? (sortDir === "asc" ? "▲" : "▼") : ""}
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
                   {pageRows.map((r, i) => (
                     <tr key={i}>
                       <td>{r.vuosi}</td>
-                      <td style={{ fontSize: 12, color: "var(--fg-dim)" }}>{r.dokumentti}</td>
+                      <td className="hide-mobile" style={{ fontSize: 12, color: "var(--fg-dim)" }}>{r.dokumentti}</td>
                       <td>
                         <div style={{ fontSize: 12.5 }}>{highlight(r.paaluokka_nimi)}</div>
                         <div style={{ fontSize: 11, color: "var(--fg-dim)" }}>{r.paaluokka_num}</div>
                       </td>
-                      <td style={{ fontSize: 12.5 }}>
+                      <td className="hide-mobile" style={{ fontSize: 12.5 }}>
                         <div>{highlight(r.luku_nimi)}</div>
                         <div style={{ fontSize: 11, color: "var(--fg-dim)" }}>{r.luku_num}</div>
                       </td>
@@ -251,7 +254,7 @@ export default function TablePage() {
                         <div style={{ fontSize: 11, color: "var(--fg-dim)" }}>{r.momentti_num}</div>
                       </td>
                       <td className="num">{formatEur(r.maararaha_eur)}</td>
-                      <td className="num">{formatEur(r.toteutuma_edellinen_eur)}</td>
+                      <td className="num hide-mobile">{formatEur(r.toteutuma_edellinen_eur)}</td>
                     </tr>
                   ))}
                 </tbody>

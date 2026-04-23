@@ -74,14 +74,38 @@ pre {
   align-items: center;
   gap: 22px;
   padding: 14px 28px;
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.88);
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 50;
   backdrop-filter: saturate(1.4) blur(12px);
   -webkit-backdrop-filter: saturate(1.4) blur(12px);
 }
+
+/* Hamburger & search toggle — näkyvät vain mobiilissa */
+.nav-toggle, .search-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  color: var(--fg);
+  border-radius: 8px;
+}
+.nav-toggle:hover, .search-toggle:hover { background: var(--accent-soft); color: var(--accent); }
+.nav-toggle { flex-direction: column; gap: 4px; width: 36px; height: 36px; align-items: center; justify-content: center; }
+.nav-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 1px;
+  transition: all 200ms;
+}
+.nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
 .topbar .brand {
   font-weight: 700;
@@ -264,8 +288,79 @@ pre {
 
 @media (max-width: 960px) {
   .grid.cols-3, .grid.cols-2 { grid-template-columns: 1fr; }
-  .topbar { flex-wrap: wrap; padding: 12px 16px; }
-  .content { padding: 20px 16px; }
+  .topbar { padding: 10px 14px; gap: 10px; }
+  .content { padding: 18px 14px; }
+  .panel { padding: 16px 14px; }
+  .content h1 { font-size: 24px; }
+  .hero { padding: 20px 18px; }
+  .hero h1 { font-size: 26px !important; }
+  .stat .value { font-size: 22px; }
+
+  /* Hamburger menu: piilota nav tasana, avaa dropdowniksi */
+  .nav-toggle { display: inline-flex; order: 3; }
+  .search-toggle { display: inline-flex; order: 4; }
+  .topbar .brand { flex: 1; order: 1; min-width: 0; font-size: 14px; }
+  .topbar nav {
+    order: 99;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: var(--bg-soft);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow-lg);
+    flex-direction: column;
+    gap: 0;
+    padding: 8px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 250ms ease;
+  }
+  .topbar nav.open {
+    max-height: 480px;
+    padding: 12px;
+  }
+  .topbar nav a {
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 100%;
+  }
+  .topbar .search {
+    order: 100;
+    max-width: none;
+    flex-basis: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 220ms ease;
+  }
+  .topbar .search.open {
+    max-height: 80px;
+    margin-top: 6px;
+  }
+
+  /* Kapenna toolbarin ja panelin välejä */
+  .toolbar { padding: 10px 12px; gap: 8px; }
+  .filter-chips { gap: 6px; }
+  .filter-chips button { padding: 3px 9px; font-size: 11.5px; }
+
+  /* Mobiilissa osa taulukon sarakkeista piiloon — lisää .hide-mobile tarpeen mukaan */
+  table.data .hide-mobile { display: none; }
+  table.data th, table.data td { padding: 7px 8px; font-size: 12px; }
+  table.data td.num { font-size: 11.5px; }
+  .mobile-only { display: inline-block; }
+
+  /* dl.kv: käännä pystysuuntaiseksi */
+  dl.kv { grid-template-columns: 1fr; row-gap: 2px; }
+  dl.kv dt { margin-top: 8px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; }
+}
+
+@media (max-width: 560px) {
+  .content h1 { font-size: 22px; }
+  .hero h1 { font-size: 24px !important; }
+  .stat { padding: 12px 14px; }
+  .stat .value { font-size: 20px; }
+  .brand .brand-logo { width: 22px; height: 22px; }
 }
 
 .stat {
@@ -520,8 +615,65 @@ dl.kv dt { color: var(--fg-dim); }
 }
 
 @media (max-width: 760px) {
-  .src-row { grid-template-columns: 1fr 90px; }
+  .src-row { grid-template-columns: 1fr 90px; gap: 8px; padding: 10px 12px; }
   .src-row .src-type, .src-row .src-license { display: none; }
+  .src-row .src-desc { display: none; }
+  .src-detail { padding: 14px 14px; }
+}
+
+/* Opas-sidebar: mobiilissa toggle-tyylinen */
+@media (max-width: 960px) {
+  .opas-grid { grid-template-columns: 1fr; gap: 0; }
+  .opas-toc {
+    position: sticky;
+    top: 60px;
+    z-index: 5;
+    max-height: none;
+    padding: 10px 12px;
+    background: var(--bg-soft);
+    border-bottom: 1px solid var(--border);
+    margin: 0 -14px 14px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .opas-toc ul {
+    display: flex;
+    gap: 6px;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+  }
+  .opas-toc > ul > li { margin-bottom: 0; flex-shrink: 0; }
+  .opas-toc ul ul { display: none; }
+  .opas-toc a { font-size: 12px; padding: 5px 10px; white-space: nowrap; }
+  .opas-section { scroll-margin-top: 140px; }
+}
+
+/* Hierarkian minimap — tiukemmat asetukset mobiilissa */
+@media (max-width: 760px) {
+  .hierarchy-map { padding: 10px 12px; }
+  .hierarchy-map .hm-row { height: 24px; }
+  .hierarchy-map .hm-row-label { width: 72px; font-size: 10px; }
+  .hierarchy-map .hm-cell { font-size: 9px; border-radius: 2px; }
+  .hierarchy-map .hm-cell-label { padding: 0 3px; }
+}
+
+/* Dokumenttien Avaa-napit — mobiilissa kapeammiksi */
+@media (max-width: 760px) {
+  .icon-btn { padding: 5px 8px; font-size: 11.5px; gap: 4px; }
+  .view-switch button { padding: 4px 9px; font-size: 11.5px; }
+}
+
+/* Markdown-näkymä mobiilissa — tiiviimpi */
+@media (max-width: 760px) {
+  .md-view { padding: 16px 18px !important; font-size: 13.5px; max-height: 75vh !important; }
+  .md-view h1 { font-size: 20px; }
+  .md-view h2 { font-size: 16px; }
+  .md-view h3 { font-size: 14px; }
+}
+
+/* Footer mobiilissa ilman flexia */
+@media (max-width: 560px) {
+  .footer { flex-direction: column; gap: 6px; align-items: flex-start; padding: 14px 16px; font-size: 11.5px; }
 }
 
 /* Ikonipainikkeet: PDF, MD, ulkoinen linkki yms. */
@@ -816,6 +968,9 @@ dl.kv dt { color: var(--fg-dim); }
   max-width: 320px;
   line-height: 1.4;
 }
+
+/* .mobile-only piilotetaan desktopissa oletuksena */
+.mobile-only { display: none; }
 .hierarchy-map .hm-root {
   display: flex;
   justify-content: space-between;

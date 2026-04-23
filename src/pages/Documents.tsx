@@ -281,11 +281,11 @@ export default function Documents() {
               <table className="data">
                 <thead>
                   <tr>
-                    <th style={{ width: 150 }}>Tyyppi</th>
+                    <th className="hide-mobile" style={{ width: 150 }}>Tyyppi</th>
                     <th>Julkaisu</th>
-                    <th className="num">Koko</th>
-                    <th>Julkaistu</th>
-                    <th style={{ width: 190 }}>Avaa</th>
+                    <th className="num hide-mobile">Koko</th>
+                    <th className="hide-mobile">Julkaistu</th>
+                    <th style={{ width: 140 }}>Avaa</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -294,13 +294,16 @@ export default function Documents() {
                     const snippet = hit ? firstMatch(it.text_excerpt, searchQ) : null;
                     return (
                       <tr key={it.filename}>
-                        <td>
+                        <td className="hide-mobile">
                           <span className="chip">{TAG_LABEL[it.tag]}</span>
                         </td>
                         <td>
                           <div style={{ fontWeight: 600, fontSize: 13.5, cursor: "pointer" }}
                                onClick={() => { setSelected(it); setViewMode("pdf"); }}>
                             {highlight(it.title)}
+                          </div>
+                          <div style={{ marginTop: 4 }} className="mobile-only">
+                            <span className="chip" style={{ fontSize: 10 }}>{TAG_LABEL[it.tag]}</span>
                           </div>
                           {it.abstract ? (
                             <div style={{ color: "var(--fg-dim)", fontSize: 12, marginTop: 3, lineHeight: 1.45 }}>
@@ -316,8 +319,8 @@ export default function Documents() {
                             </div>
                           ) : null}
                         </td>
-                        <td className="num">{(it.size_kb / 1024).toFixed(1)} MB</td>
-                        <td style={{ fontSize: 12.5, color: "var(--fg-dim)" }}>{it.issued}</td>
+                        <td className="num hide-mobile">{(it.size_kb / 1024).toFixed(1)} MB</td>
+                        <td className="hide-mobile" style={{ fontSize: 12.5, color: "var(--fg-dim)" }}>{it.issued}</td>
                         <td>
                           <div style={{ display: "flex", gap: 6 }}>
                             <button
