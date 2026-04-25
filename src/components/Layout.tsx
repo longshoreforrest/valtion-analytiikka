@@ -65,6 +65,7 @@ export default function Layout() {
           <NavLink to="/taulukko">Taulukko</NavLink>
           <NavLink to="/tiivistelma">Tiivistelmä</NavLink>
           <NavLink to="/dokumentit">Dokumentit</NavLink>
+          <NavLink to="/poliittinen-analyysi">Poliittinen analyysi</NavLink>
           <NavLink to="/lahteet">Lähteet</NavLink>
           <NavLink to="/opas">Opas</NavLink>
         </nav>

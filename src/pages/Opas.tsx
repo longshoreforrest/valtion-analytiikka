@@ -1,5 +1,8 @@
 import { useMemo, useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import { useSearch } from "../data/search";
+import { PARTIES } from "../data/parties";
+import { POLITICAL_QUESTIONS } from "../data/political_questions";
 
 /**
  * Yhdistetty opas: käyttöohje + metodologia + tietoja + hakutoiminto
@@ -249,6 +252,195 @@ const SECTIONS: Section[] = [
         </p>
       </>
     ),
+  },
+  {
+    id: "puolueet",
+    title: "Poliittiset puolueet ja niiden kysymykset",
+    subsections: [
+      { id: "puolueet-yleis", title: "Eduskuntapuolueet" },
+      { id: "puolueet-edustajat", title: "Edustajat budjettineuvotteluissa" },
+      { id: "puolueet-kysymykset", title: "Mitä puolueet kysyvät budjetilta" },
+      { id: "puolueet-vaalikausi", title: "Vaalikauden yli menevät teemat" },
+      { id: "puolueet-vaikuttavuus", title: "Politiikkatoimien vaikuttavuus" },
+      { id: "puolueet-keskusteleva", title: "Keskusteleva analytiikka — katvealueet" },
+    ],
+    render: () => {
+      const sortedParties = [...PARTIES].sort((a, b) => b.paikat - a.paikat);
+      const kattaa = POLITICAL_QUESTIONS.filter((q) => q.kattavuus === "kattaa").length;
+      const osittain = POLITICAL_QUESTIONS.filter((q) => q.kattavuus === "osittain").length;
+      const puuttuu = POLITICAL_QUESTIONS.filter((q) => q.kattavuus === "puuttuu").length;
+      return (
+        <>
+          <p>
+            Sovelluksessa on oma <Link to="/poliittinen-analyysi"><b>Poliittinen analyysi</b></Link>{" "}
+            -näkymä jossa puolueet, niiden arvomalli, sidosryhmäverkosto ja
+            kysymyspankki on esitetty interaktiivisina visualisointeina. Tämä
+            opasosio kuvaa mitä mallista löytyy ja miten sitä voi käyttää.
+          </p>
+
+          <h3 id="puolueet-yleis">Eduskuntapuolueet 2023–2027</h3>
+          <p>
+            Puolueet on listattu paikkamäärän mukaan. Hallituksessa on neljä
+            puoluetta (KOK, PS, RKP, KD); muut ovat oppositiossa.
+          </p>
+          <table className="data">
+            <thead>
+              <tr>
+                <th>Puolue</th>
+                <th>Lyh.</th>
+                <th>Paikat</th>
+                <th>Asema</th>
+                <th>Linja lyhyesti</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortedParties.map((p) => (
+                <tr key={p.id}>
+                  <td>
+                    <span
+                      style={{
+                        display: "inline-block",
+                        width: 8,
+                        height: 8,
+                        borderRadius: 99,
+                        background: p.vari,
+                        marginRight: 6,
+                      }}
+                    />
+                    {p.nimi}
+                  </td>
+                  <td><b>{p.lyhenne}</b></td>
+                  <td className="num">{p.paikat}</td>
+                  <td>
+                    <span className={`badge ${p.lohko === "hallitus" ? "success" : "muted"}`}>
+                      {p.lohko}
+                    </span>
+                  </td>
+                  <td style={{ fontSize: 12.5 }}>{p.kuvaus}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+          <h3 id="puolueet-edustajat">Edustajat budjettineuvotteluissa</h3>
+          <p>
+            Jokaisen puolueen kohdalla on listattu nykyiset puheenjohtaja(t) ja
+            eduskuntaryhmän puheenjohtaja, sekä mahdolliset valtiovarainvalio-
+            kuntaedustajat. Hallituspuolueiden ministerit ovat samalla
+            keskeisiä budjettineuvottelijoita: pääministeri, valtiovarain-
+            ministeri ja muut talouden kannalta merkittävät ministerit.
+          </p>
+          <p>
+            Täydellinen lista löytyy{" "}
+            <Link to="/poliittinen-analyysi"><b>Poliittinen analyysi → Edustajat</b></Link>{" "}
+            -välilehdeltä.
+          </p>
+
+          <h3 id="puolueet-kysymykset">Mitä puolueet kysyvät budjetilta</h3>
+          <p>
+            Sovellus sisältää <b>{POLITICAL_QUESTIONS.length} kuratoitua kysymystä</b>,
+            jotka edustavat tyypillisiä puolueiden esittämiä kysymyksiä
+            budjetin valmistelussa, kehysriihessä ja eduskuntakäsittelyssä.
+            Jokainen kysymys on annotoitu sen mukaan voiko sovellus vastata
+            siihen nykydatalla:
+          </p>
+          <ul className="clean">
+            <li>
+              <span className="badge success">Kattaa</span> — {kattaa} kysymystä:
+              vastaus löytyy suoraan sovelluksen näkymistä
+            </li>
+            <li>
+              <span className="badge warn">Osittain</span> — {osittain} kysymystä:
+              osa vastauksesta on käytössä, mutta täydellinen vaatii ulkoista tietoa
+            </li>
+            <li>
+              <span className="badge danger">Puuttuu</span> — {puuttuu} kysymystä:
+              tarvitaan uutta dataa tai analyysimallia
+            </li>
+          </ul>
+          <p>
+            Esimerkkejä kysymyksistä eri teemoista:
+          </p>
+          <ul className="clean">
+            {POLITICAL_QUESTIONS.slice(0, 8).map((q) => (
+              <li key={q.id}>
+                <b>{q.otsikko}</b> — {q.teema} (kysyjät:{" "}
+                {q.esittäjät.map((e) => e.toUpperCase()).join(", ")})
+              </li>
+            ))}
+          </ul>
+          <p>
+            Kaikki kysymykset suodattimineen löytyvät{" "}
+            <Link to="/poliittinen-analyysi"><b>Poliittinen analyysi → Kysymyspankki</b></Link>.
+          </p>
+
+          <h3 id="puolueet-vaalikausi">Vaalikauden yli menevät teemat</h3>
+          <p>
+            Eduskunnan nelivuotinen sykli kannustaa lyhyen aikavälin
+            päätöksiin, mutta isot taloudelliset kysymykset ratkeavat usein
+            vasta useamman vaalikauden aikana:
+          </p>
+          <ul className="clean">
+            <li>
+              <b>Velkasuhde ja korkomenot</b> — sopeutusura on kestoltaan
+              4–8 vuotta, herkkä korkojen muutokselle
+            </li>
+            <li>
+              <b>Sote-rahoituksen kestävyys</b> — väestön ikääntyminen
+              kasvattaa palvelutarvetta vuosikymmeniä
+            </li>
+            <li>
+              <b>Hiilineutraalisuus 2035</b> — useamman hallituksen yhdensuuntaista
+              politiikkaa edellyttävä tavoite
+            </li>
+            <li>
+              <b>Eläkejärjestelmän kestävyys</b> — eläkemenot kasvavat
+              30+ vuotta, sopimukset ylittävät useita vaalikausia
+            </li>
+            <li>
+              <b>Koulutusketjun rahoitus</b> — vaikutukset näkyvät vasta
+              sukupolvien yli
+            </li>
+            <li>
+              <b>Puolustusbudjetin 2 % BKT -taso</b> — pitkäaikainen NATO-
+              sitoumus
+            </li>
+          </ul>
+
+          <h3 id="puolueet-vaikuttavuus">Politiikkatoimien vaikuttavuusarviointi</h3>
+          <p>
+            Vaikuttavuusarviointi (impact evaluation) selvittää onko jokin
+            politiikkatoimi <b>tosiasiallisesti aiheuttanut</b> tavoitellun
+            muutoksen. Se vaatii rinnalleen vertailuasetelman, indikaattori-
+            aikasarjan ja luotettavan toimen ajoituksen.
+          </p>
+          <p>
+            Sovelluksen nykytila tukee vaikuttavuusarviointia osittain:
+            rivitasoinen budjettidata 2014→ ja julkisen talouden tilinpito
+            1975→. Päätösmuutosten kytkeminen vaikutusindikaattoreihin
+            (PISA, Sotkanet, tulonjako) edellyttää lisädataa. "Lupausten ja
+            toimenpiteiden linja" -näkymä syntyy kun saadaan rinnakkain (1)
+            hallitusohjelman strukturoidut tavoitteet, (2) talousarvion momentit
+            ja (3) Valtiokonttorin toteumadata.
+          </p>
+
+          <h3 id="puolueet-keskusteleva">Keskusteleva analytiikka — katvealueet</h3>
+          <p>
+            Keskusteleva analytiikka (LLM-pohjainen kysymys-vastaus-rajapinta)
+            on suunniteltu tämän sovelluksen jatkokehityksenä. Kysymyspankki
+            toimii sen kehitysvälineenä: <b>"puuttuu"-merkityt kysymykset</b>{" "}
+            kertovat mihin tarvitaan lisädataa ennen kuin AI voi vastata
+            puolueiden esittämiin kysymyksiin lähdeperustaisesti.
+          </p>
+          <p>
+            Tällä tavoin <b>katvealueiden kartta</b> ohjaa datapohjan
+            laajentamisen prioriteetteja: ensin viedään lähimmäs kysymyksiä
+            joita useat puolueet esittävät ja jotka ovat vaikuttavuus-
+            kategoriassa.
+          </p>
+        </>
+      );
+    },
   },
   {
     id: "arkkitehtuuri",

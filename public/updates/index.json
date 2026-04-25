@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-04-23T02:48:58+00:00",
-  "count": 1,
+  "generated_at": "2026-04-25T07:50:00+03:00",
+  "count": 2,
   "updates": [
+    {
+      "slug": "2026-04-poliittinen-analysaattori",
+      "title": "Poliittinen analysaattori — uusi osio sovelluksessa",
+      "subtitle": "Eduskuntapuolueet, arvomalli, sidosryhmät ja koalitiosimulaattori — tilannekuva huhtikuu 2026",
+      "event_date": "2026-04-25",
+      "published": "2026-04-25T07:50:00+03:00",
+      "category": "ominaisuus",
+      "pdf_count": 0,
+      "link_count": 4,
+      "highlights": [
+        "9 eduskuntapuoluetta + edustajat budjettineuvotteluissa",
+        "Arvomalli 12 dimensiolla — jokainen pistearvo lähdeviitattuna",
+        "Sidosryhmäverkosto, kysymyspankki ja koalitiosimulaattori (PCA + ristiveto + tavoiteohjelma)"
+      ]
+    },
     {
       "slug": "2026-04-kehysriihi",
       "title": "Kehysriihi 2026 — JTS 2027–2030",

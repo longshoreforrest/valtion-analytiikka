@@ -24,6 +24,7 @@ const CATEGORY_LABEL: Record<string, string> = {
   kehysriihi: "Kehysriihi",
   budjettiesitys: "Budjettiesitys",
   tilinpaatos: "Tilinpäätös",
+  ominaisuus: "Sovellusominaisuus",
   muu: "Muu",
 };
 

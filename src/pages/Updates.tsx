@@ -71,6 +71,7 @@ const CATEGORY_LABEL: Record<string, string> = {
   kehysriihi: "Kehysriihi",
   budjettiesitys: "Budjettiesitys",
   tilinpaatos: "Tilinpäätös",
+  ominaisuus: "Sovellusominaisuus",
   muu: "Muu",
 };
 
@@ -338,19 +339,28 @@ export function UpdateDetail() {
       ) : null}
 
       <div className="panel">
-        <div className="panel-title">Linkit alkuperäisiin tiedotteisiin</div>
+        <div className="panel-title">
+          {m.category === "ominaisuus" ? "Linkit sovelluksen sisällä" : "Linkit alkuperäisiin tiedotteisiin"}
+        </div>
         <ul className="clean" style={{ marginTop: 10 }}>
-          {m.links.map((l, i) => (
-            <li key={i} style={{ marginBottom: 8 }}>
-              <a href={l.url} target="_blank" rel="noreferrer" style={{ fontWeight: 500 }}>
-                {l.title}
-              </a>
-              <span style={{ color: "var(--fg-dim)", fontSize: 12.5 }}>
-                {" "}— {l.source}
-                {l.note ? ` · ${l.note}` : ""}
-              </span>
-            </li>
-          ))}
+          {m.links.map((l, i) => {
+            const isInternal = l.url.startsWith("/");
+            return (
+              <li key={i} style={{ marginBottom: 8 }}>
+                {isInternal ? (
+                  <Link to={l.url} style={{ fontWeight: 500 }}>{l.title}</Link>
+                ) : (
+                  <a href={l.url} target="_blank" rel="noreferrer" style={{ fontWeight: 500 }}>
+                    {l.title}
+                  </a>
+                )}
+                <span style={{ color: "var(--fg-dim)", fontSize: 12.5 }}>
+                  {" "}— {l.source}
+                  {l.note ? ` · ${l.note}` : ""}
+                </span>
+              </li>
+            );
+          })}
         </ul>
       </div>
 

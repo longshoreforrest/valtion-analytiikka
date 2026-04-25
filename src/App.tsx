@@ -10,6 +10,7 @@ import DataSummary from "./pages/DataSummary";
 import PublicFinance from "./pages/PublicFinance";
 import Documents from "./pages/Documents";
 import Opas from "./pages/Opas";
+import PoliittinenAnalyysi from "./pages/PoliittinenAnalyysi";
 import { UpdatesList, UpdateDetail } from "./pages/Updates";
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/taulukko" element={<TablePage />} />
         <Route path="/tiivistelma" element={<DataSummary />} />
         <Route path="/dokumentit" element={<Documents />} />
+        <Route path="/poliittinen-analyysi" element={<PoliittinenAnalyysi />} />
         <Route path="/lahteet" element={<Sources />} />
         <Route path="/opas" element={<Opas />} />
         {/* Vanhat reitit ohjautuvat oppaaseen */}

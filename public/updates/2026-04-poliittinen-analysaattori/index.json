@@ -1,0 +1,45 @@
+{
+  "slug": "2026-04-poliittinen-analysaattori",
+  "title": "Poliittinen analysaattori — uusi osio sovelluksessa",
+  "subtitle": "Eduskuntapuolueet, arvomalli, sidosryhmät ja koalitiosimulaattori — tilannekuva huhtikuu 2026",
+  "event_date": "2026-04-25",
+  "published": "2026-04-25T07:50:00+03:00",
+  "category": "ominaisuus",
+  "highlights": [
+    "9 eduskuntapuoluetta + edustajat budjettineuvotteluissa",
+    "Arvomalli 12 dimensiolla — jokainen pistearvo lähdeviitattuna",
+    "Sidosryhmäverkosto: etujärjestöt, ajatuspajat, tutkimuslaitokset, yhteyksien tyypit ja lähteet klikkaamalla",
+    "Kysymyspankki — 20 puolueiden tyypillistä budjettikysymystä, datakattavuus ja analyyttinen selittäjä",
+    "PCA-projektio + 3D-kartta + koalitiosimulaattori (konsensus, ristiveto, hallitusohjelmatavoitteet)"
+  ],
+  "pdfs": [],
+  "links": [
+    {
+      "url": "/poliittinen-analyysi",
+      "title": "Avaa: Poliittinen analyysi",
+      "source": "Sovellus",
+      "note": "Yhdeksän tabin näkymä — yleiskatsauksesta koalitiosimulaattoriin ja lähdeviittauksiin"
+    },
+    {
+      "url": "/opas#puolueet",
+      "title": "Käyttöopas — Poliittiset puolueet ja niiden kysymykset",
+      "source": "Sovellus",
+      "note": "Mistä mallissa on kyse, mihin se perustuu, miten päivittyy"
+    },
+    {
+      "url": "/poliittinen-analyysi#lahteet",
+      "title": "Lähteet ja varaukset",
+      "source": "Sovellus",
+      "note": "Hallitusohjelma, vaalikoneet 2023, vaihtoehtobudjetit, kehysriihi 2026 — sekä mallin rajoitukset"
+    },
+    {
+      "url": "https://valtioneuvosto.fi/hallitusohjelma",
+      "title": "Petteri Orpon hallituksen ohjelma 20.6.2023",
+      "source": "Valtioneuvosto",
+      "note": "Hallituspuolueiden arvopisteytysten ankkuripiste"
+    }
+  ],
+  "summary_path": "/updates/2026-04-poliittinen-analysaattori/summary.md",
+  "sources_path": "/updates/2026-04-poliittinen-analysaattori/sources.md",
+  "generated_at": "2026-04-25T07:50:00+03:00"
+}
