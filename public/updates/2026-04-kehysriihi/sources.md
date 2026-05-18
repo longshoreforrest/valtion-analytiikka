@@ -12,4 +12,4 @@
 - [Kehys- ja budjettivalmistelun aikataulut](https://vm.fi/kehys-ja-budjettivalmistelun-aikataulut) (Valtiovarainministeriö) — JTS 2027–2030 hyväksytään valtioneuvoston yleisistunnossa 30.4.2026
 
 ---
-_Tiedot päivitetty: 2026-05-11T07:56:44+00:00_
+_Tiedot päivitetty: 2026-05-18T08:18:26+00:00_
